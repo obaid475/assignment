@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment2.css">
+</head>
+<body>
+    <p style="color: red;"> this is  first paragraph</p>
+    <p style="background-color: green;"> this is  first  <i> second</i></p>
+    <p> this is  first  <b> third</b></p>
+    <p"> this is  first  <u> fourth</u></p>
+
+
+    <div class="b1">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias numquam veniam temporibus eius laboriosam dolores natus necessitatibus, nesciunt, molestiae illo perspiciatis voluptatem magni doloremque eveniet ullam quasi corporis quaerat cupiditate.</p>
+    </div>
+
+    <div class="b2">
+        <label for=""> Enter your name</label>
+        <input type="text"> 
+        <br>
+
+        <label for=""> Enter your age</label>
+        <input type="date">
+        <br>
+
+        <label for=""> Enter your address </label>
+        <input type="text">
+        <br>
+
+        <label for=""> your favorit subject</label>
+        <input type="text"> <br>
+
+        <label for="" > your favorit movie </label>
+        <input type="text"> <br>
+
+        <label for=""> your favorit singer</label>
+        <input type="text">
+        <br>
+
+    </div>
+
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+    
+
+
+<div class="b4" id="b4">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sit aliquam quaerat natus expedita earum voluptatibus fugit distinctio. Harum nobis quo a modi qui blanditiis quas cupiditate aperiam nam quidem.</p>
+</div>
+
+
+<div class="b5">
+    <label for=""> enter your username</label>
+    <br>
+    <input type="text" id="user">
+    <br>
+    <label for=""> enter password</labedl>
+        
+        <br>
+        <input type="password" id="pass">
+
+        <button onclick="fun1()"> Submit</button>
+</div>
+<script type="text/javascript">
+    document.getElementById("b4").style.animation = "time 0s 1 4s"
+     
+function fun1(){
+    let user  = document.getElementById("user").value;
+    let pass = document.getElementById("pass").value;
+    if( user===""){
+        alert("please enter your name");
+
+    }
+    else if(pass===""){
+        alert(" please enter password");
+    }
+    
+}
+
+</script>
+</body>
+</html>
